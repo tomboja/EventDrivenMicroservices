@@ -1,0 +1,13 @@
+spring:
+    kafka:
+        consumer:
+        bootstrap-servers: localhost:9092
+        auto-offset-reset: earliest
+        group-id: email-service
+#    mail:
+#        host: smtp.gmail.com
+#        port: 587
+#        username:
+
+#test:
+#    topic: orders_email_topic
